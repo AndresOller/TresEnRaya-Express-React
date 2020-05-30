@@ -21,20 +21,41 @@ git clone https://github.com/AndresOller/TresEnRaya-Express-React.git
 cd TresEnRaya-Express-React
 ```
 
-* Ejecutar Backend: 
+### Backend
+
+* Entrar en Carpeta de Backend:
 ```
 cd backend #TresEnRaya-Express-React/backend
+```
+
+* Instalar paquetes necesarios para correr la aplicación:
+```
+npm install
+```
+
+* Ejecutar Backend: 
+```
 npm run tresRaya-back 
 ```
 
 * Ejecutar Test de Backend:
 ```
-cd backend #TresEnRaya-Express-React/backend
 npm run test
+```
+
+### Frontend
+
+* Entrar en Carpeta de Frontend:
+```
+cd frontend #TresEnRaya-Express-React/frontend
+```
+
+* Instalar paquetes necesarios para correr la aplicación:
+```
+npm install
 ```
 
 * Ejecutar Frontend: 
 ```
-cd frontend #TresEnRaya-Express-React/frontend
 npm start
 ```
