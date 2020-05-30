@@ -1,4 +1,4 @@
-# Tres en Raya en React, Express y MongoDB
+# Tres en Raya en React y Express
 Juego del **Tres en Raya** (Tic Tac Toe) desarrollado para la **parte frontend React** y para la **parte backend Express**.
 
 ## Software Requerido
