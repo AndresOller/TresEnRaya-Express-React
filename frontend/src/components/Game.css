@@ -1,0 +1,22 @@
+.game {
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  text-shadow: /* Border */
+                -2px 0 black, 
+                0 2px black, 
+                2px 0 black, 
+                0 -2px black, 
+                -2px -2px black, 
+                2px -2px black, 
+                2px 2px black, 
+                -2px 2px black, 
+                /*Shadow*/
+                -1px 4px 2px black, 
+                0px 4px 2px black, 
+                1px 4px 2px black;
+  transform: rotate(-2deg);
+  margin: 5px;
+}

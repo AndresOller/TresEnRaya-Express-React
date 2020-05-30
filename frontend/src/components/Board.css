@@ -1,0 +1,35 @@
+.board {
+  background-color: RGBA(0,0,0,.20);
+  padding: 30px;
+  margin: 20px;
+  clip-path: polygon(0 10%, /* left top */ 100% 0, /* right top */ 95% 97%, /* right bottom */ 10% 100% /* left bottom */);
+}
+
+.board-status {
+  margin-bottom: 10px;
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+}
+
+.reset-game {
+  background-color: white;
+  outline: inherit;
+  cursor: pointer;
+  margin-top: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px;
+  border: 2px solid black;
+  box-shadow: -1px 2px 2px black, 
+              1px 2px 2px black;
+  font-family: "Arial Black", Gadget, sans-serif;
+  transition: 0.25s;
+}
+
+.reset-game:hover {
+  background-color: yellow;
+  transform: rotate(-2deg);
+}

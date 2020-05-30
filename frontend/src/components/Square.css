@@ -1,0 +1,21 @@
+.square, .square:hover, .square:active {
+  background-color: white;
+  outline: inherit;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+  margin: 3px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 2px solid black;
+  box-shadow: -1px 2px 2px black, 
+              1px 2px 2px black;
+  font-family: "Arial Black", Gadget, sans-serif;
+  transition: 0.25s;
+  
+  transform: rotate(-4deg);
+}
+
+.square:hover {
+  transform: rotate(-0deg);
+}
