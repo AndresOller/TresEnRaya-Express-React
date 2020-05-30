@@ -1,7 +1,7 @@
 # Tres en Raya en React, Express y MongoDB
 Juego del **Tres en Raya** (Tic Tac Toe) desarrollado para la **parte frontend React** y para la **parte backend Express**.
 
-## Instalación
+## Software Requerido
 Es necesario tener el siguiente software instalado:
 
 * [Git](https://git-scm.com/downloads): Si utilizas Windows instala [GitforWindows](https://gitforwindows.org/).
